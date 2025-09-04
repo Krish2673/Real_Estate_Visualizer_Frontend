@@ -10,7 +10,7 @@ function DatasetExplorer() {
   const [currentPage, setCurrentPage] = useState(1);
 
   useEffect(() => {
-    fetch('/explorer_data.json')
+    fetch('https://github.com/Krish2673/Real_Estate_Visualizer/releases/download/v1.0/explorer_data.json')
       .then(res => {
         if (!res.ok) throw new Error("Failed to fetch dataset");
         return res.json();
