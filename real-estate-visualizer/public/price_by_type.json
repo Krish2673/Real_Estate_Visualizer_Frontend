@@ -1,0 +1,22 @@
+[
+  {
+    "Property_type": "Apartment",
+    "Price": 12381339.587584406
+  },
+  {
+    "Property_type": "Independent Floor",
+    "Price": 29342346.41873253
+  },
+  {
+    "Property_type": "Independent House",
+    "Price": 17149315.706952617
+  },
+  {
+    "Property_type": "Residential Plot",
+    "Price": 4049712.040224969
+  },
+  {
+    "Property_type": "Villa",
+    "Price": 22156429.88014013
+  }
+]
