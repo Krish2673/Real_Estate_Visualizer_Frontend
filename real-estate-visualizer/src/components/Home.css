@@ -1,0 +1,181 @@
+.home-page {
+  position: relative;
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: url('mumbai-skyline-skyscrapers-construction.jpg') center center / cover no-repeat ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.overlay-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  z-index: 1;
+}
+
+.intro-section, .form-wrapper {
+  position: relative;
+  z-index: 2;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 12px;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  animation: fadeIn 0.7s ease-in-out;
+}
+
+.intro-section h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.intro-section p {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+}
+
+.start-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #6366f1, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.start-btn:hover {
+  transform: scale(1.05);
+}
+
+.form-wrapper h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.predict-form {
+  display: grid;
+  gap: 15px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.form-row label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.form-row input,
+.form-row select {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  background: linear-gradient(90deg, #10b981, #14b8a6);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+button[type="submit"]:hover {
+  transform: scale(1.04);
+}
+
+.prediction-result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.error-msg {
+  color: #ff6b6b;
+  margin-top: 15px;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.predict-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: #334155;
+  font-size: 1.3rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #3b82f6;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+.prediction-result {
+  margin-top: 30px;
+  background: #f0fdf4;
+  border: 1px solid #4ade80;
+  padding: 20px;
+  border-radius: 8px;
+  color: #065f46;
+}
+
+.error-msg {
+  color: red;
+  margin-top: 20px;
+}
