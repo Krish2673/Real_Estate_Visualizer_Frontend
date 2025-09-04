@@ -1,0 +1,406 @@
+{
+  "Ahmedabad West": {
+    "Latitude": 23.03738594,
+    "Longitude": 72.46510315
+  },
+  "Ahmedabad South": {
+    "Latitude": 22.94042969,
+    "Longitude": 72.45471954
+  },
+  "Ahmedabad North": {
+    "Latitude": 23.12010002,
+    "Longitude": 72.56109619
+  },
+  "Ahmedabad East": {
+    "Latitude": 22.98698235,
+    "Longitude": 72.66384125
+  },
+  "SG Highway": {
+    "Latitude": 23.07227135,
+    "Longitude": 72.52276611
+  },
+  "Ahmedabad Central": {
+    "Latitude": 23.07873535,
+    "Longitude": 72.5371933
+  },
+  "Other": {
+    "Latitude": 22.99688911,
+    "Longitude": 72.6177597
+  },
+  "Sanand1": {
+    "Latitude": 22.99128914,
+    "Longitude": 72.37551117
+  },
+  "Khokhra Circle": {
+    "Latitude": 22.99375534,
+    "Longitude": 72.60079956
+  },
+  "Sarjapur Road Before Wipro": {
+    "Latitude": 12.9073801,
+    "Longitude": 77.68283844
+  },
+  "Bannerghatta Road": {
+    "Latitude": 12.86687946,
+    "Longitude": 77.57616425
+  },
+  "Whitefield": {
+    "Latitude": 13.00328445,
+    "Longitude": 77.75897217
+  },
+  "Bangalore North": {
+    "Latitude": 13.06445503,
+    "Longitude": 77.62077332
+  },
+  "Bangalore West": {
+    "Latitude": 13.01951981,
+    "Longitude": 77.55110931
+  },
+  "Mysore Road": {
+    "Latitude": 12.90858841,
+    "Longitude": 77.48636627
+  },
+  "Hosur Road": {
+    "Latitude": 12.8707571,
+    "Longitude": 77.6450119
+  },
+  "Old Madras Road": {
+    "Latitude": 13.02781487,
+    "Longitude": 77.7516098
+  },
+  "Bangalore South": {
+    "Latitude": 12.90708542,
+    "Longitude": 77.67575836
+  },
+  "Bangalore East": {
+    "Latitude": 13.07299995,
+    "Longitude": 77.79669952
+  },
+  "Sarjapur Road": {
+    "Latitude": 12.86177158,
+    "Longitude": 77.7694397
+  },
+  "Hennur Main Road": {
+    "Latitude": 13.06667137,
+    "Longitude": 77.65388489
+  },
+  "Old Airport Road": {
+    "Latitude": 12.96354485,
+    "Longitude": 77.64802551
+  },
+  "Bangalore Central": {
+    "Latitude": 12.9806242,
+    "Longitude": 77.60688019
+  },
+  "Outer Ring Road": {
+    "Latitude": 12.94101524,
+    "Longitude": 77.69658661
+  },
+  "Kanakapura Road": {
+    "Latitude": 12.86846447,
+    "Longitude": 77.56880951
+  },
+  "Thanisandra Main Road": {
+    "Latitude": 13.08103848,
+    "Longitude": 77.63539886
+  },
+  "New Airport Road": {
+    "Latitude": 13.18141556,
+    "Longitude": 77.66324615
+  },
+  "ECR": {
+    "Latitude": 12.84720039,
+    "Longitude": 80.23912811
+  },
+  "Chennai West": {
+    "Latitude": 13.05088902,
+    "Longitude": 80.06541443
+  },
+  "GST": {
+    "Latitude": 12.7355442,
+    "Longitude": 79.99559784
+  },
+  "OMR": {
+    "Latitude": 12.91065979,
+    "Longitude": 80.18130493
+  },
+  "Chennai North": {
+    "Latitude": 13.16472244,
+    "Longitude": 80.29618835
+  },
+  "Chennai South": {
+    "Latitude": 12.93714809,
+    "Longitude": 80.13041687
+  },
+  "Vandalur Kelambakkam Road": {
+    "Latitude": 12.86164665,
+    "Longitude": 80.1782608
+  },
+  "Chennai Central": {
+    "Latitude": 13.05915928,
+    "Longitude": 80.20568848
+  },
+  "Vandalur Road": {
+    "Latitude": 12.83054829,
+    "Longitude": 79.95591736
+  },
+  "Arcot Road  Saligramam": {
+    "Latitude": 18.50923729,
+    "Longitude": 73.87957001
+  },
+  "Tharamani": {
+    "Latitude": 30.32954025,
+    "Longitude": 78.09040833
+  },
+  "Chennai Bypass Road": {
+    "Latitude": 13.02396679,
+    "Longitude": 80.14787292
+  },
+  "OMR Bypass Road": {
+    "Latitude": 12.96260929,
+    "Longitude": 80.19620514
+  },
+  "Kodungaiyur East": {
+    "Latitude": 10.7686758,
+    "Longitude": 79.12380981
+  },
+  "Delhi South": {
+    "Latitude": 28.51667213,
+    "Longitude": 77.18047333
+  },
+  "North Delhi": {
+    "Latitude": 28.69468498,
+    "Longitude": 77.11710358
+  },
+  "Delhi East": {
+    "Latitude": 28.62396431,
+    "Longitude": 77.30709076
+  },
+  "West Delhi": {
+    "Latitude": 28.7373333,
+    "Longitude": 77.12332153
+  },
+  "Rohini": {
+    "Latitude": 28.75298309,
+    "Longitude": 77.096138
+  },
+  "Dwarka": {
+    "Latitude": 28.61684036,
+    "Longitude": 76.98812103
+  },
+  "Delhi Central": {
+    "Latitude": 28.65369034,
+    "Longitude": 77.16915894
+  },
+  "Near Bahadurgarh Metro Station": {
+    "Latitude": 28.67288971,
+    "Longitude": 77.02838898
+  },
+  "Delhi North": {
+    "Latitude": 28.67115974,
+    "Longitude": 77.20443726
+  },
+  "South West Delhi": {
+    "Latitude": 28.54840469,
+    "Longitude": 77.04924774
+  },
+  "Delhi West": {
+    "Latitude": 28.63430786,
+    "Longitude": 77.17588806
+  },
+  "North East Delhi": {
+    "Latitude": 28.68326187,
+    "Longitude": 77.28546143
+  },
+  "North West Delhi": {
+    "Latitude": 28.71693611,
+    "Longitude": 77.07946014
+  },
+  "Near Fun And Food Village": {
+    "Latitude": 28.57053947,
+    "Longitude": 77.06021881
+  },
+  "New Delhi": {
+    "Latitude": 28.60038185,
+    "Longitude": 77.18573761
+  },
+  "Hyderabad West": {
+    "Latitude": 17.43040276,
+    "Longitude": 78.25138092
+  },
+  "Hyderabad East": {
+    "Latitude": 17.34503365,
+    "Longitude": 78.5581665
+  },
+  "Hyderabad South": {
+    "Latitude": 17.33829689,
+    "Longitude": 78.37820435
+  },
+  "Secunderabad": {
+    "Latitude": 17.50599098,
+    "Longitude": 78.53675079
+  },
+  "Hyderabad North": {
+    "Latitude": 17.55513191,
+    "Longitude": 78.3088913
+  },
+  "ORR North": {
+    "Latitude": 17.59378242,
+    "Longitude": 78.56816101
+  },
+  "ORR West": {
+    "Latitude": 17.38495827,
+    "Longitude": 78.32870483
+  },
+  "ORR South": {
+    "Latitude": 17.35557747,
+    "Longitude": 78.3837204
+  },
+  "Hyderabad Central": {
+    "Latitude": 17.43940926,
+    "Longitude": 78.47357178
+  },
+  "Gr Hyderabad": {
+    "Latitude": 17.27739716,
+    "Longitude": 78.17590332
+  },
+  "South Hyderabad": {
+    "Latitude": 17.33646584,
+    "Longitude": 78.55898285
+  },
+  "NH 7": {
+    "Latitude": 17.37811279,
+    "Longitude": 78.40999603
+  },
+  "Kolkata West": {
+    "Latitude": 22.73753166,
+    "Longitude": 88.35150909
+  },
+  "Kolkata East": {
+    "Latitude": 22.57065773,
+    "Longitude": 88.46389008
+  },
+  "Kolkata North": {
+    "Latitude": 22.73498344,
+    "Longitude": 88.50836945
+  },
+  "Kolkata South": {
+    "Latitude": 22.52755737,
+    "Longitude": 88.39001465
+  },
+  "EM Bypass": {
+    "Latitude": 22.40554619,
+    "Longitude": 88.40815735
+  },
+  "Kolkata Central": {
+    "Latitude": 22.9750843,
+    "Longitude": 88.43450928
+  },
+  "Diamond Harbour Road Thakurpukur": {
+    "Latitude": 22.59894943,
+    "Longitude": 88.37356567
+  },
+  "Hooghly East": {
+    "Latitude": 22.93344688,
+    "Longitude": 88.37958527
+  },
+  "Rae Bareli Road": {
+    "Latitude": 26.74239159,
+    "Longitude": 80.95659637
+  },
+  "Lucknow South": {
+    "Latitude": 26.69163895,
+    "Longitude": 80.8875885
+  },
+  "Lucknow East": {
+    "Latitude": 26.90705109,
+    "Longitude": 81.04056549
+  },
+  "Lucknow North": {
+    "Latitude": 26.92395592,
+    "Longitude": 80.95251465
+  },
+  "Lucknow Central": {
+    "Latitude": 26.9058094,
+    "Longitude": 81.04906464
+  },
+  "Sitapur National Hwy": {
+    "Latitude": 26.98818207,
+    "Longitude": 80.92173767
+  },
+  "Kanpur Road": {
+    "Latitude": 26.69152451,
+    "Longitude": 80.83438873
+  },
+  "Alambagh": {
+    "Latitude": 26.77254868,
+    "Longitude": 81.07952118
+  },
+  "Barabanki": {
+    "Latitude": 26.96563339,
+    "Longitude": 81.09487915
+  },
+  "Lucknow West": {
+    "Latitude": 26.80640984,
+    "Longitude": 80.77411652
+  },
+  "Gomti Nagar": {
+    "Latitude": 26.53258896,
+    "Longitude": 80.48000336
+  },
+  "Kanpur Lucknow Road": {
+    "Latitude": 26.6210556,
+    "Longitude": 80.66992188
+  },
+  "Andheri to Dahisar": {
+    "Latitude": 19.19688988,
+    "Longitude": 72.81639862
+  },
+  "Thane": {
+    "Latitude": 19.22554779,
+    "Longitude": 72.98503876
+  },
+  "Beyond Thane": {
+    "Latitude": 19.27136421,
+    "Longitude": 73.04962921
+  },
+  "Navi Mumbai": {
+    "Latitude": 19.01904678,
+    "Longitude": 73.0934906
+  },
+  "Mira Road and Beyond": {
+    "Latitude": 19.47090149,
+    "Longitude": 72.80472565
+  },
+  "Mumbai Harbour": {
+    "Latitude": 19.05746651,
+    "Longitude": 72.90500641
+  },
+  "Central Mumbai": {
+    "Latitude": 19.10995293,
+    "Longitude": 72.89769745
+  },
+  "Beyond Panvel": {
+    "Latitude": 18.89087868,
+    "Longitude": 73.16705322
+  },
+  "Worli to Andheri": {
+    "Latitude": 19.03397751,
+    "Longitude": 72.84185791
+  },
+  "Mumbai South": {
+    "Latitude": 18.93630028,
+    "Longitude": 72.83820343
+  },
+  "Mumbai Mira Road and Beyond": {
+    "Latitude": 19.25594711,
+    "Longitude": 72.8527298
+  },
+  "Mumbai Central Line": {
+    "Latitude": 19.1301651,
+    "Longitude": 72.92658234
+  },
+  "Mumbai Beyond Thane": {
+    "Latitude": 19.04808807,
+    "Longitude": 73.31323242
+  }
+}
