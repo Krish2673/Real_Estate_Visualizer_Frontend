@@ -60,7 +60,7 @@ function CompareChart() {
   const [chartData, setChartData] = useState([]);
 
   const handleCompare = () => {
-    fetch('https://github.com/Krish2673/Real_Estate_Visualizer/releases/download/v1.0/compare_data.json')
+    fetch('/compare_data.json')
       .then(res => res.json())
       .then(json => {
         const grouped = {};
