@@ -19,7 +19,7 @@ function About() {
           <li><b>Backend:</b> Flask (REST API for model inference)</li>
           <li><b>Machine Learning:</b> Python (Pandas, NumPy, Scikit-learn, CatBoost)</li>
           <li><b>Data:</b> Real estate listings from Makaan.com (via Kaggle)</li>
-          <li><b>Deployment:</b> Netlify (frontend) + Render (backend API)</li>
+          <li><b>Deployment:</b> Vercel (frontend) + Render (backend API)</li>
         </ul>
 
 
