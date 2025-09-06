@@ -59,3 +59,17 @@
   color: #93c5fd;
   text-decoration: underline;
 }
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .footer-links {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}

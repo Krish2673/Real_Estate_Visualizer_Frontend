@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100vh;
   padding: 40px 20px;
-  background: url('mumbai-skyline-skyscrapers-construction.jpg') center center / cover no-repeat ;
+  background: url('mumbai-skyline-skyscrapers-construction.jpg') center center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,11 +17,12 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0, 0, 0, 0.7); /* Dark overlay */
+  background: rgba(0, 0, 0, 0.7);
   z-index: 1;
 }
 
-.intro-section, .form-wrapper {
+.intro-section,
+.form-wrapper {
   position: relative;
   z-index: 2;
   background: rgba(255, 255, 255, 0.1);
@@ -29,19 +30,19 @@
   border-radius: 12px;
   backdrop-filter: blur(8px);
   width: 100%;
-  max-width: 600px;
+  max-width: 650px;
   text-align: center;
   animation: fadeIn 0.7s ease-in-out;
 }
 
 .intro-section h1 {
-  font-size: 2rem;
+  font-size: 2.2rem;
   margin-bottom: 10px;
   color: #ffffff;
 }
 
 .intro-section p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   margin-bottom: 20px;
   color: #e0e0e0;
 }
@@ -67,21 +68,21 @@
 
 .predict-form {
   display: grid;
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
 }
 
 .form-row {
   display: flex;
   flex-direction: column;
-
-  /* align-items: start; */
-  /* text-align: left; */
 }
 
 .form-row label {
   font-weight: 500;
   margin-bottom: 5px;
   color: #ffffff;
+  font-size: 0.95rem;
 }
 
 .form-row input,
@@ -90,6 +91,7 @@
   border: none;
   border-radius: 6px;
   font-size: 1rem;
+  width: 100%;
 }
 
 button[type="submit"] {
@@ -101,6 +103,7 @@ button[type="submit"] {
   border-radius: 8px;
   cursor: pointer;
   margin-top: 10px;
+  transition: transform 0.2s ease;
 }
 button[type="submit"]:hover {
   transform: scale(1.04);
@@ -108,9 +111,13 @@ button[type="submit"]:hover {
 
 .prediction-result {
   margin-top: 20px;
-  font-size: 1.2rem;
+  background: #f0fdf4;
+  border: 1px solid #4ade80;
+  padding: 20px;
+  border-radius: 8px;
+  color: #065f46;
   font-weight: bold;
-  color: #ffffff;
+  text-align: center;
 }
 
 .error-msg {
@@ -123,60 +130,48 @@ button[type="submit"]:hover {
   to { opacity: 1; transform: translateY(0); }
 }
 
-.predict-form {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 30px;
-  margin-top: 30px;
+/* 📱 Responsive Styles */
+@media (max-width: 768px) {
+  .intro-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .intro-section p {
+    font-size: 1rem;
+  }
+
+  .form-wrapper {
+    padding: 20px;
+  }
+
+  .predict-form {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
 }
 
-.form-group {
-  flex: 1 1 45%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
+@media (max-width: 480px) {
+  .intro-section h1 {
+    font-size: 1.5rem;
+  }
 
-label {
-  font-weight: 500;
-  margin-bottom: 5px;
-  color: #334155;
-  font-size: 1.3rem;
-}
+  .intro-section p {
+    font-size: 0.9rem;
+  }
 
-input, select {
-  width: 100%;
-  padding: 8px;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  font-size: 1.1rem;
-}
+  button,
+  .start-btn {
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
 
-button {
-  padding: 10px 20px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  background-color: #3b82f6;
-  color: white;
-  cursor: pointer;
-  margin-top: 20px;
-}
+  .form-row label {
+    font-size: 0.85rem;
+  }
 
-button:hover {
-  background-color: #2563eb;
-}
-
-.prediction-result {
-  margin-top: 30px;
-  background: #f0fdf4;
-  border: 1px solid #4ade80;
-  padding: 20px;
-  border-radius: 8px;
-  color: #065f46;
-}
-
-.error-msg {
-  color: red;
-  margin-top: 20px;
+  .form-row input,
+  .form-row select {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
 }

@@ -4,38 +4,39 @@
   justify-content: center;
   align-items: flex-start;
   padding: 40px 5%;
-  background: linear-gradient(to bottom right, #e0f2fe , #f0f9ff);
+  background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);
   color: #1f2937;
   min-height: 100vh;
+  gap: 2rem;
 }
 
 .about-left {
   flex: 1 1 600px;
   max-width: 800px;
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 .about-left h1 {
-  font-size: 2.9rem;
+  font-size: 2.5rem;
   color: #1d4ed8;
   margin-bottom: 15px;
 }
 
 .subtitle {
-  font-size: 1.4rem;
-  margin-bottom: 25px;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
   color: #4b5563;
 }
 
 .description {
-  font-size: 1.25rem;
-  margin-bottom: 25px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
   line-height: 1.7;
 }
 
 .about-left h3 {
-  font-size: 1.5rem;
-  margin-top: 25px;
+  font-size: 1.3rem;
+  margin-top: 20px;
   margin-bottom: 10px;
   color: #111827;
 }
@@ -44,7 +45,7 @@
   margin-bottom: 20px;
   padding-left: 20px;
   list-style: disc;
-  font-size: 1.15rem;
+  font-size: 1rem;
   line-height: 1.6;
 }
 
@@ -62,6 +63,7 @@
   text-decoration: none;
   font-weight: bold;
   font-size: 1rem;
+  transition: background 0.2s ease-in-out;
 }
 
 .links a:hover {
@@ -71,14 +73,64 @@
 .about-right {
   flex: 1 1 400px;
   max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .about-right img {
   width: 100%;
-  max-height: 450px;
+  max-height: 400px;
   object-fit: contain;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  margin-top: 7rem;
-  margin-left: 7rem;
+  margin: 0 auto;
+}
+
+/* 📱 Responsive Styles */
+@media (max-width: 1024px) {
+  .about-left h1 {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .about-left {
+    padding-right: 0;
+  }
+
+  .about-right img {
+    margin-top: 2rem;
+    max-height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-left h1 {
+    font-size: 1.8rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .description {
+    font-size: 0.95rem;
+  }
+
+  .links a {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
 }

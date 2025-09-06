@@ -1,7 +1,7 @@
 .explorer-page {
   padding: 20px;
   max-width: 100%;
-  background: linear-gradient(to bottom right, #e0f2fe , #f0f9ff);
+  background: linear-gradient(to bottom right, #e0f2fe, #f0f9ff);
 }
 
 .explorer-page h2 {
@@ -9,6 +9,7 @@
   color: #1d4ed8;
 }
 
+/* Controls */
 .explorer-controls {
   display: flex;
   flex-wrap: wrap;
@@ -40,6 +41,7 @@
   background-color: #059669;
 }
 
+/* Table */
 .table-wrapper {
   overflow-x: auto;
 }
@@ -56,18 +58,22 @@
   padding: 10px;
   border: 1px solid #ddd;
   text-align: left;
+  white-space: nowrap;
 }
 
 .data-table th {
   background-color: #f3f4f6;
   cursor: pointer;
-  white-space: nowrap;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .data-table tbody tr:nth-child(even) {
   background-color: #f9fafb;
 }
 
+/* Pagination */
 .pagination {
   margin-top: 20px;
   display: flex;
@@ -85,6 +91,7 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 14px;
+  transition: background 0.2s ease;
 }
 
 .pagination button.active {
@@ -113,4 +120,30 @@
   border: 1px solid #ccc;
   border-radius: 4px;
   text-align: center;
+}
+
+/* 🔹 Responsive tweaks */
+@media (max-width: 768px) {
+  .data-table {
+    font-size: 12px;
+  }
+
+  .pagination {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
+
+  .pagination button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+
+  .explorer-controls {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .download-btn {
+    text-align: center;
+  }
 }
