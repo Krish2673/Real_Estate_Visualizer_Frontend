@@ -2,7 +2,7 @@
   position: relative;
   min-height: 100vh;
   padding: 40px 20px;
-  background: url('mumbai-skyline-skyscrapers-construction.jpg') center center / cover no-repeat;
+  background: url('/mumbai-skyline-skyscrapers-construction.jpg') center center / cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
